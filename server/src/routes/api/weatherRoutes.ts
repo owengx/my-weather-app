@@ -15,6 +15,7 @@ console.log("end)");
 router.post('/', (_req: Request, res: Response) => {
   res.status(418).send("this hasnt been implemented yet");
   // TODO: GET weather data from city name
+  // router.get() this needs work og
   // TODO: save city to search history
 });
 
