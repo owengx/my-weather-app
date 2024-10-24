@@ -5,7 +5,7 @@ dotenv.config();
 // Import the routes
 import routes from './routes/index.js';
 
-// console.log(process.env);
+console.log(process.env);
 
 const app = express();
 
